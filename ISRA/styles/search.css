@@ -1,0 +1,26 @@
+﻿body {
+}
+﻿.sideFilter {
+    background-color: #F7F7F7;
+}
+
+.rowBtn {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: transparent;
+    border: none;
+    width: 100%;
+}
+.rowBtn:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+@media screen and (max-width: 1700px) {
+    #results {
+        margin-right: 3rem;
+        margin-left: 3rem;
+    }
+}
